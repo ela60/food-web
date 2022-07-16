@@ -1,0 +1,208 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+
+
+
+
+.header
+{
+   display: flex;
+  
+    padding: 40px;
+}
+
+
+/* Header Style*/
+
+.header-title
+{
+   font-size: 160%;
+   margin-top: 10%;
+   margin-left: 5%;
+   width: 50%;
+}
+.header-img img {
+   width: 100%;
+}
+.header-img
+{
+    width: 50%;
+}
+
+
+.food-order
+{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,orange);
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 200px;
+    color: white;
+    margin: 10px;
+}
+
+.header-skip{
+    color:tomato;
+}
+
+
+
+
+
+/* Middle Style */
+.middle{
+    display: flex;
+  
+  
+    background-image: url(img/7.png);
+    background-repeat: no-repeat;
+    
+   
+   
+}
+
+.middle-img img{
+    width: 55%;
+   padding: 30px;
+   
+}
+.middle-img{
+   width: 50%;
+  
+}
+ .middle-title
+ {
+     width: 50%;
+     font-size: 160%;
+    margin-top: 8%;
+    padding: 20px;
+  
+ }
+
+
+/* Recipes Section title */
+.recipe
+{
+    text-align: center;
+}
+
+/* Food Section */
+
+.food-img
+{
+    width: 100%;
+    border-radius: 20px;
+}
+.food{
+    display: flex;
+}
+.food-1
+{
+    text-align: center;
+    background-color: white;
+    padding-top: 15px;
+    margin: 10px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* End Sention*/
+
+.end {
+    background-color: white;
+    display: flex;
+   
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+    border-radius: 10px;
+  
+   
+}
+.follower
+{
+  padding: 10%;
+}
+
+
+.last
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+ /* Responsive Funtion */
+ /* Header Responsive */
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: #00CED1	;
+    
+
+
+    }
+    .header-title{
+        font-size: 85%;
+        width: 50%;
+    }
+    .header-img{
+        width: 50%;
+        
+    }
+ .follower
+ {
+     padding: 7%;
+ }
+
+  }
+
+  @media only screen and (min-width: 768px) {
+
+   body{
+       background-color: #00CED1	;
+   }
+  }
+  @media only screen and (min-width: 600px) {
+
+    body{
+        background-color: #00CED1	;
+    }
+  }
+
+  /* Middle Responsive */
+
+
+/* Middle Responsive */
+
+@media only screen and (max-width: 600px)
+{
+ 
+
+    .middle-img img{
+       
+        width: 80%;
+       
+    }
+    .middle-img{
+     width: 50%;
+     padding: 10px;
+      
+    }
+     .middle-title
+     {
+      
+        width: 50%;
+        font-size: 85%;
+        padding: 10px;
+     }
+
+
+}
+
